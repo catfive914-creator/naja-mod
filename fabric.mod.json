@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "catfive_naga",
+  "version": "${version}",
+  "name": "CatFive Naga",
+  "description": "มอดพญานาค 4 เผ่า แปลงร่าง สกิล และอัลติเมต",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.catfive.naga.NagaMod"],
+    "client": ["com.catfive.naga.NagaClient"]
+  },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "java": ">=21", "fabric-api": "*" }
+}
